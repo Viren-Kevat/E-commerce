@@ -6,8 +6,8 @@ A fully functional eCommerce web application with a modern frontend built using 
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** [Your Vercel Link Here](#)
-- **Backend (Render):** [Your Render API Link Here](#)
+- **Frontend (Vercel):** [https://armanee-e-commerce.vercel.app/](#)
+- **Backend (Render):** [https://e-commerce-omega-silk.vercel.app/](#)
 
 ---
 
