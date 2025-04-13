@@ -49,7 +49,7 @@ A fully functional eCommerce web application with a modern frontend built using 
 
 ## 🗂️ Folder Structure
 
-````bash
+```bash
 .
 ├── client/              # React frontend
 │   ├── public/
@@ -63,14 +63,16 @@ A fully functional eCommerce web application with a modern frontend built using 
 │   ├── routes/
 │   └── app.js
 └── README.md
+```
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/viren-kevat/e-commerce.git
 cd your-repo-name
-````
+```
 
 ### 2. Install Dependencies
 
