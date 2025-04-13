@@ -29,6 +29,7 @@ const Registration = () => {
       const data = await response.json();
       if (response.ok) {
         alert("Registration successful!");
+        navigate("/login");
       } else {
         alert(data.message || "Registration failed");
       }
@@ -92,7 +93,7 @@ const Registration = () => {
           </div>
 
           <p className="signin text-center pt-4">
-            Already Have an account? <a href="myaccount.html">Login</a>
+            Already Have an account? <a href="/login">Login</a>
           </p>
         </div>
       </div>

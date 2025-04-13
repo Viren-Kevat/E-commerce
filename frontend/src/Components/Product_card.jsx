@@ -111,17 +111,12 @@ const Product_card = () => {
           <h3 className="display-6 fw-bold my-4">${product.price}</h3>
           <p className="lead description-lead">{product.description}</p>
           <div className="add_card_btn d-flex gap-3">
-            <button
-              className="btn btn-outline-dark text-white px-4 py-2 product-btn"
-              onClick={() => addProduct(product)}
-            >
-              Add to Cart
-            </button>
+            
             <button
               className="btn btn-outline-dark text-white px-4 py-2 product-btn"
               onClick={() => handleAddToCart(product._id)}
             >
-              Add to Cart with API
+              Add to Cart
             </button>
           </div>
         </div>
